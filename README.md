@@ -1,2 +1,2 @@
-# sslchecker
-simple shell script get telegram Alerts For Expiring SSL Certificates 
+# ssl checker
+simple shell script to get telegram Alerts For Expiring SSL Certificates 
