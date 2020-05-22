@@ -11,11 +11,11 @@
         then
             msg="The certificate  has already expired."
             echo $msg
-            curl -G --data-urlencode "chat_id=-385404270" --data-urlencode "text=The certificate  has already expired" https://api.telegram.org/botxxx__your token__xxxx/sendMessage
+            curl -G --data-urlencode "chat_id=-474654476" --data-urlencode "text=The certificate  has already expired" https://api.telegram.org/botxxx__your token__xxxx/sendMessage
         else
             msg="The certificate for cdn-news.org  will expire in $((${diff}/3600/24)) days."
             echo $msg
-            curl -G --data-urlencode "chat_id=-385404270" --data-urlencode "text=The certificate will expire in $((${diff}/3600/24)) days." https://api.telegram.org/botxxx__your token__xxxx/sendMessage
+            curl -G --data-urlencode "chat_id=-474654476" --data-urlencode "text=The certificate will expire in $((${diff}/3600/24)) days." https://api.telegram.org/botxxx__your token__xxxx/sendMessage
         fi
     fi
 
